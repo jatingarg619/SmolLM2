@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+model_checkpoint/
+checkpoints/
+Assignment_13/model_checkpoint.pt
+Assignment_13/pytorch_model.bin
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Hugging Face
+.huggingface/ 
